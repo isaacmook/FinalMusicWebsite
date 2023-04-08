@@ -1,0 +1,491 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    line-height: 1.5;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 85px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #00ffff;
+}
+
+nav form {
+    display: flex;
+}
+
+/* Add margin-right to all but the last li */
+nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+/* remove link color and underline*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+ul li a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+ul li a:hover {
+    color: #00ffff;
+}
+
+.search {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    top: 35px;
+}
+
+.search form {
+    display: flex;
+}
+
+.search input[type="text"] {
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px #00ffff;
+    border: none;
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+header {
+    width: 100%;
+    height: 840px;
+    background-image: url(/assets/CoverImage/logic_no_pressure_home_cover_image.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-content p {
+    margin: 0;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.overlay {
+    width: 100%;
+    height: 840px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 10%;
+    padding-top: 250px;
+}
+
+.button-group {
+    width: 400px;
+    height: 50px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.normal {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+.inverted {
+    border: 2px solid #00ffff;
+    padding-top: 5px !important;
+}
+
+.normal:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #00ffff;
+}
+
+.inverted:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    position: relative;
+}
+
+h3 {
+    color: #fff;
+}
+
+.col-box {
+    width: 277px;
+    height: 277px;
+    background-color: lightgray;
+    margin-top: 25px;
+    color: red;
+}
+
+.man_on_the_moon {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/man_on_the_moon_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.blame_it_on_baby {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/blame_it_on_baby_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.happy_thoughts {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/happy_thoughts_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.music_to_be_murdered_by {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/music_to_be_murdered_by_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.low_end_theory {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/low_end_theory_album_cover.png);
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.wu_tang {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/wu_tang_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.to_pimp_a_butterfly {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/to_pimp_a_butterfly_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.revenge {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/revenge_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.kod {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/kod_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.no_pressure {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/no_pressure_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.circles {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/circles_album_cover.png);
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.kanye {
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/AlbumCovers/kanye_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+
+.art {
+    width: 277px;
+    height: 277px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 80px;
+    opacity: 0%;
+    color: #fff;
+}
+
+.overlay:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: #00ffff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 225px;
+    height: 30px;
+    margin-top: 50px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 9px;
+}
+
+.content h3,
+p {
+    margin: 0;
+}
+
+.music-video {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.text {
+    width: -100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 10%;
+    background-color: rgba(82, 123, 177, 0.3);
+    color: white;
+}
+
+.text p {
+    margin-top: 20px;
+}
+
+.text h2 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* Table styles */
+
+table {
+    width: 84%;
+    height: 470px;
+    border-collapse: collapse;
+    font-weight: lighter;
+    font-size: small;
+    margin-left: 122px;
+    margin-right: 122px;
+    color: #ffffff;
+    position: relative;
+}
+
+table th,
+table td {
+    border: none;
+    
+    
+}
+table th {
+    text-align: justify;
+}
+th{
+    font-weight: bold;
+    
+}
+tr{
+    padding-right: 40px;
+}
+th, td {
+    padding: 10px;
+}
+
+.song-table{
+    padding-right: 40px;
+}
+
+.song-list{
+    border-bottom: 2px solid #333;
+}
+
+#border-bottom{
+    border-bottom: 3px solid #00ffff;
+}
+
+.col-5 {
+    width: 40%;
+    height: 470px;
+    background-image: url(../assets/AlbumCovers/my_favourite_mix_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.col-7 {
+    width: 75%;
+}
+
+form{
+    width: 30%;
+    background-color: #183e3e;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.input-elm{
+    width: 90%;
+    height: 35px;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+select, button{
+    width: 95% !important;
+    
+}
+button{
+    background-color: #00ffff !important;
+    color: #000000 !important;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 25px;
+}
+
+/* Login form styles */
+
+/*
+
+input[type="text"], input[type="password"] {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #00ffff;
+}
+*/
