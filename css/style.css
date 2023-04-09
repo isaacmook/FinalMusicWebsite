@@ -60,10 +60,8 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #000000;
-    background-color: rgba(0, 0, 0, 0.1);
     font-weight: bold;
-    border-radius: 25px;
-    border-bottom: 2px solid #00ffff;
+    border-bottom: 2px solid #000000;
 }
 
   
@@ -463,11 +461,55 @@ button{
 }
 
 footer {
-    background-color: #333;
     color: #fff;
-    padding: 1rem;
+    padding: 20px;
     margin-top: 25px;
 }
+.footer-icons {
+    display: flex;
+    justify-content: right;
+    color: #fff;
+    margin-top: 0;
+    margin-right: 155px;
+}
+.fa {
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+  
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      color: #000000;
+  }
+  
+  .fa-facebook {
+    border-radius: 50% #ffffff;
+    color: white;
+  }
+  
+  .fa-twitter {
+    border-radius: 50% ;
+    color: white;
+  }
+  
+  .fa-youtube {
+    border-radius: 50% #ffffff;
+    color: white;
+  }
+  
+  .fa-instagram {
+    border-radius: 50% #ffffff;
+    color: white;
+  }
+
 
 /* Login form styles */
 
