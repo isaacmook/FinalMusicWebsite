@@ -10,11 +10,20 @@
     margin-bottom: 150px;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000000;
     line-height: 1.5;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
 }
 
 .logo{
@@ -24,14 +33,16 @@ body {
 }
 img{
     text-decoration: none;
-    background-image: url();
+    width: 150px;
+    height: 50px;
+    padding-top: 4px;
+    margin-left: 50px;
 }
 a{
     text-decoration: none;
 }
 a:hover{
     color: #fff;
-    border-bottom: 2px solid #fff;
 }
 
 nav {
@@ -44,6 +55,7 @@ nav {
     padding: 0 20px;
     background-color: rgba(0, 0, 0, 0.1);
     padding-top: 25px;
+    font-family: 'Comfortaa', cursive;
   }
   
   nav a {
@@ -57,6 +69,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
+    font-weight: 300;
   }
   
   nav ul li {
@@ -87,10 +100,12 @@ nav ul li a:hover {
   
   .search-bar input[type="text"] {
     border-radius: 20px;
-    border: none;
+    border: 2px solid #00ffff;
     padding: 8px 16px;
     margin-right: 5px;
     background-color: #2b2b2b;
+    background-repeat: no-repeat;
+    color: white;
   }
 
 
@@ -100,6 +115,8 @@ header {
     background-image: url(/assets/CoverImage/logic_no_pressure_home_cover_image.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     color: white;
 }
 
@@ -164,7 +181,7 @@ header {
     margin-right: 30px;
     position: absolute;
     left: 85%;
-    top: 22%
+    top: 24%
   }
   
   .icon {
@@ -386,6 +403,13 @@ p {
     font-style: italic;
 }
 
+.playlist{
+    float: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
 /* Table styles */
 
 table {
@@ -398,6 +422,7 @@ table {
     margin-right: 122px;
     color: #ffffff;
     position: relative;
+    font-family: 'Comfortaa', cursive;
 }
 
 table th,
@@ -441,6 +466,7 @@ th, td {
     text-align: center;
     color: #fff;
     margin-top: 25px;
+    font-weight: 700;
 }
 
 .col-6{
@@ -497,8 +523,6 @@ button{
     margin-right: 60px;
     padding-right: 15px;
 }
-
-
 
 .map-wrapper{
     width: 100%;

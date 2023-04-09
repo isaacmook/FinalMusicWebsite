@@ -9,27 +9,35 @@
 
     <title>My Playlists</title>
 
+    <!--External Links-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!--Internal Links-->
     <link rel="stylesheet" href="/css/style.css">
+
 </head>
 
 <body>
     <nav>
-        <a href="/index.html"><img src="logo.png" alt="STREAM"></a>
-        <ul>
-          <li><a href="#recentReleases">Recent Releases</a></li>
-          <li><a href="#popularAlbums">Popular Albums</a></li>
-          <li><a href="/pages/about.html">About Label</a></li>
-          <li><a href="/pages/playlist.html">My Playlists</a></li>
-        </ul>
-        <div class="search-bar">
-          <input type="text" placeholder="Search...">
-          
-        </div>
-      </nav>
+            <a href="/index.html"><img src="/assets/Logo/stream_logo_white.png" alt="STREAM"></a>
+            <ul>
+                <li><a href="#recentReleases">Recent Releases</a></li>
+                <li><a href="#popularAlbums">Popular Albums</a></li>
+                <li><a href="/pages/about.html">About Label</a></li>
+                <li><a href="/pages/playlist.html">My Playlists</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+
+            </div>
+        </nav>
     <main>
         <!--<div class="container">
             <div class="row">
@@ -38,6 +46,11 @@
         </div>-->
 <br><br><br>
         <table>
+            <div class="container">
+                <div class="row">
+                    <h2 class="playlist">My Playlists</h2>
+                </div>
+            </div>
             <tr>
                 <td class="col-5"><h1>FAVOURITES<br>MIX</h1></td>
                 <td class="col-7">
@@ -62,42 +75,71 @@
                             <td><b>NO PRESSURE</b><br>Logic</td>
                             <td>No Pressure</td>
                             <td>2:54</td>
-                            <td>...</td>
+                            <td><svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2C8 2.55228 8.44772 3 9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 2C15 2.55228 15.4477 3 16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 2C1 2.55228 1.44772 3 2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></td>
                         </tr>
                         <tr class="active song-list">
-                            <td>2</td>
+                            <td><svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 22V9.5" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.5 22V2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 22V14.5" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                </td>
                             <td><b>DEEP END</b><br>Lecrae</td>
                             <td>Restoration</td>
                             <td>3:09</td>
-                            <td>...</td>
+                            <td><svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2C8 2.55228 8.44772 3 9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 2C15 2.55228 15.4477 3 16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 2C1 2.55228 1.44772 3 2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></td>
                         </tr>
                         <tr class="song-list">
                             <td>3</td>
                             <td><b>SAVE YOUR TEARS</b><br>The Weekend</td>
                             <td>After Hours</td>
                             <td>3:36</td>
-                            <td>...</td>
+                            <td><svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2C8 2.55228 8.44772 3 9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 2C15 2.55228 15.4477 3 16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 2C1 2.55228 1.44772 3 2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></td>
                         </tr>
                         <tr class="song-list">
                             <td>4</td>
                             <td><b>1985 (INTRO TO "THE FALL OFF")</b><br>J. Cole</td>
                             <td>KOD</td>
                             <td>3:10</td>
-                            <td>...</td>
+                            <td><svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2C8 2.55228 8.44772 3 9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 2C15 2.55228 15.4477 3 16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 2C1 2.55228 1.44772 3 2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></td>
                         </tr>
                         <tr class="song-list">
                             <td>5</td>
                             <td><b>SHIBUYA ROLL CALL</b><br>Andy Mineo (feat. Wordsplayed)</td>
                             <td>Happy Thoughts</td>
                             <td>3:07</td>
-                            <td>...</td>
+                            <td><svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2C8 2.55228 8.44772 3 9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 2C15 2.55228 15.4477 3 16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 2C1 2.55228 1.44772 3 2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></td>
                         </tr>
                         <tr class="song-list">
                             <td>6</td>
                             <td>ELECTRIC RELAXATION<br>A Tribe Called Quest</td>
                             <td>The Low End Theory</td>
                             <td>3:46</td>
-                            <td>...</td>
+                            <td><svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2C8 2.55228 8.44772 3 9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 2C15 2.55228 15.4477 3 16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 2C1 2.55228 1.44772 3 2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg></td>
                         </tr>
                     </table>
                 </td>
