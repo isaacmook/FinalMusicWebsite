@@ -18,6 +18,10 @@ body {
     margin-right: 40px;
     margin-top: 50px;
 }
+img{
+    text-decoration: none;
+    background-image: url();
+}
 
 nav {
     width: 100%;
@@ -59,9 +63,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #000000;
+    color: white;
     font-weight: bold;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #ffffff;
 }
 
   
@@ -196,6 +200,7 @@ h3 {
     margin-top: 25px;
     color: red;
 }
+
 
 .man_on_the_moon {
     width: 277px;
@@ -427,37 +432,72 @@ th, td {
     margin-top: 25px;
 }
 
+.col-6{
+    width: 50%;
+    color: white;
+    
+
+}
+
 .col-7 {
     width: 75%;
 }
+.about-page{
+    width: 100%;
+    height: 00px;
+    margin-top: 85px;
+}
+.in-touch{
+    background-color: #273a4da2;
+    padding-top: 0px !important;
 
+}
+.about-us, .in-touch{
+    padding: 30px;
+    
+}
 form{
-    width: 30%;
-    background-color: #183e3e;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 25px;
-    padding-bottom: 40px;
+    justify-content: center;
 }
 .input-elm{
     width: 90%;
-    height: 35px;
+    height: 50px;
     border-radius: 25px;
     padding-left: 15px;
-    margin-top: 15px;
+    margin-top: 35px;
     border: none;
     background-color: #2b2b2b;
     color: white;
 }
-select, button{
-    width: 95% !important;
-    
-}
+
 button{
     background-color: #00ffff !important;
     color: #000000 !important;
+    text-align: center;
+}
+
+.fButton{
+    width: 25%;
+    text-align: center;
+    float: right;
+    margin-right: 60px;
+    padding-right: 10px;
+}
+
+
+
+.map-wrapper{
+    width: 100%;
+    height: 200px;
+}
+
+#message{
+    height: 100px;
 }
 
 footer {
